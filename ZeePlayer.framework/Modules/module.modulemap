@@ -1,0 +1,11 @@
+framework module ZeePlayer {
+  umbrella header "ZeePlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module ZeePlayer.Swift {
+    header "ZeePlayer-Swift.h"
+    requires objc
+}
